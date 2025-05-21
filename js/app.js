@@ -7,7 +7,6 @@ function calcular() {
     let body = document.getElementById("bg");
     let button = document.getElementById("bu");
     
-    let divImagem = document.getElementById("imagem-fundo");
 
 
     let imc = peso / (altura * altura);
@@ -59,6 +58,7 @@ function calcular() {
             button.style.backgroundColor = "#003161";
             button.style.color = "#ffffff";
             resultadoimc.innerHTML = "IMC: " + imc 
+            resultado.innerHTML = "abaixo do peso"
             
     }
 }
